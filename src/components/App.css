@@ -1,0 +1,29 @@
+body {
+  background-image: url('background.jpg');
+  color: gray;
+  box-sizing: border-box;
+  font-size: 25px;
+  height: 100vh;
+  width:100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  text-align: center;
+}
+
+
+input,
+button {
+  font-size: 30px;
+  border: 2px solid black;
+  border-radius: 25px;
+  outline: 0;
+  width: 60vw;
+  text-align: center;
+  cursor: pointer;
+margin-top:20px;
+}
+
+input[type="text"]:focus {
+  border: 2px solid red;
+}
